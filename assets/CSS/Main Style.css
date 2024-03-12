@@ -1,0 +1,78 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-image: url("/Currículum Vitae/assets/imgs/Background.jpg");
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+header{
+    color: black;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+menu{
+    font-size: 1.5em;
+    justify-content: space-around;
+}
+menu li{
+    display: inline-block;
+    margin-right: 100px;
+}
+menu a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    border: solid 2px White;
+    background-color: white; 
+       
+}
+main h3{
+    margin: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+main p{
+    margin:0;
+    text-align: justify;
+    padding: 10px;
+}
+
+section{
+    justify-content: space-around;
+}
+.datos{
+    width: 30%;
+    margin: 20px;
+    border: solid 1px white;
+    background-color: white;
+    text-align: justify;
+    padding: 2px;
+}
+.datos h4{
+    margin: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+footer{
+    margin: 0px;
+    height: 3em;
+    line-height: 3em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
